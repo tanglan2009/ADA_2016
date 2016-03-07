@@ -11,6 +11,7 @@
 # 2) download the data and convert to geojson data (Louisiana.json)
 #           3) Load Louisiana.json in Shapely, and create a shape object for Louisiana_Purchase_Territory
 #           4) create point objects: Point(longitude, latitude), check whether point in shape with the built-in function.
+#           5) define damage property and damage crops as monetary impact. Sum them up for all the locations inside the territory.
 
 import json
 from shapely.geometry import Point, shape
