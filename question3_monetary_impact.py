@@ -19,9 +19,6 @@ import csv
 data = json.loads(open("Louisiana.json").read())
 Louisiana_Purchase_Territory = data['geometry']
 
-# check point in the geometry shape
-# point = Point(-109.18, 41.58)
-# print shape(Louisiana_Purchase_Territory_shape ).contains(point)
 
 def string_start_with_vowels(string):
     vowels = 'AEIOUaeiou'
